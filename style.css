@@ -44,7 +44,6 @@ body {
   background: pink;
   border: none;
   outline: none;
-  cursor: pointer;
 }
 .user-container input[type="date"]:hover {
   border-color: #ff69b4;
