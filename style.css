@@ -66,3 +66,20 @@ body {
 .user-container input[type="date"]::-webkit-calendar-picker-indicator:hover {
   background-color: #ff69b4;
 }
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3.125rem;
+}
+.countdown-container .el {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.875rem;
+}
+.countdown-container .el h1{
+    font-size: 3rem;
+}
